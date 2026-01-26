@@ -23,6 +23,7 @@ Displays the full path of the current working directory.
 ### Command Used
 ```bash
 pwd
+```
 
 ## Command 2: ls
 
@@ -35,3 +36,5 @@ Include permission structure with the '-l' flag and hidden files and directories
 ls
 ls -l
 ls -la
+```
+
