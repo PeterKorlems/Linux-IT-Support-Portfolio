@@ -11,6 +11,7 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 - touch
 - cat
 - less
+- cp
 
 ## Lab Steps
 
@@ -160,3 +161,25 @@ This is safer and more efficient than using cat, especially for large files.
 - Used to view large log and configuration files safely
 - Prevents terminal overload during troubleshooting
 - Commonly used on remote systems via SSH
+
+  ## Command 8: cp
+
+### Purpose
+Copies files and directories from one location to another.
+
+### Commands Used
+```bash
+cp system_check.txt logs/
+cp system_check.txt system_check_backup.txt
+cp -r tickets tickets_backup
+```
+
+### Explanation
+The cp command creates a duplicate of a file or directory.
+By default, it copies files, while the -r option is required to copy directories recursively.
+This command is commonly used to create backups or preserve original files before making changes.
+
+### IT Support Relevance
+- Used to back up configuration files before editing
+- Helps preserve logs and user data during troubleshooting
+- Essential when testing changes without risking original files
