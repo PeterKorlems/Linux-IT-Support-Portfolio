@@ -50,3 +50,14 @@ cd ..
 cd ~
 ```
 
+## Command 4: mkdir
+
+### Purpose
+Creates directories in the filesystem.
+
+### Commands Used
+```bash
+mkdir linux_basics_lab
+mkdir logs
+mkdir -p tickets/closed
+```
