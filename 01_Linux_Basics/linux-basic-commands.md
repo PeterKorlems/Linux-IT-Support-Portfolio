@@ -13,6 +13,8 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 - less
 - cp
 - rm
+- man
+- --help
 
 ## Lab Steps
 
@@ -209,4 +211,25 @@ The -i option prompts for confirmation before deletion, helping prevent accident
 - Helps clean up log files after troubleshooting
 - The -i option is commonly used to avoid accidental deletion of important data
 
+## Command 11: man and --help
 
+### Purpose
+Provides built-in documentation and usage guidance for Linux commands.
+
+### Commands Used
+```bash
+man ls
+man cp
+ls --help
+cp --help
+```
+
+### Explanation
+The man command opens the manual page for a command, showing detailed information such as description, options, and usage examples.
+The --help option provides a shorter, quick-reference summary directly in the terminal.
+Both tools allow users to understand commands without relying on external resources.
+
+### IT Support Relevance
+- Enables self-service troubleshooting without internet access
+- Helps quickly identify correct command options during incidents
+- Demonstrates independence and problem-solving ability in support roles
