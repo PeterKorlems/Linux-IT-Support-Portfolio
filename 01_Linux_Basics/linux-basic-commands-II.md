@@ -13,6 +13,9 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 - uptime
 - grep
 - find
+- env
+- echo
+- history
 
 ## Lab Steps
 
@@ -88,4 +91,26 @@ The -i option makes the search case-insensitive, which is useful when searching 
 - Essential for diagnosing application and system issues
 - Saves time when working on systems with large numbers of files
 
-  
+  ## Command 15: env, echo, history
+
+### Purpose
+Displays environment variables, outputs text or variable values, and shows command history.
+
+### Commands Used
+```bash
+env
+echo $HOME
+echo $PATH
+history
+```
+
+#### Explanation
+The env command lists all environment variables available in the current shell session.
+The echo command outputs text or the value of environment variables, which is useful for verifying system paths and user environments.
+The history command displays previously executed commands, allowing users to review or repeat past actions.
+
+#### IT Support Relevance
+- Helps diagnose issues related to user environments and system paths
+- Useful for verifying configuration variables such as HOME and PATH
+- Allows support engineers to review actions taken during troubleshooting
+- Assists in auditing and retracing steps when resolving incidents
