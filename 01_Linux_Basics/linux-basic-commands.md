@@ -15,7 +15,12 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 
 ## Lab Steps
 
-### 1. Check current directory
+## Command 1: pwd
+
+### Purpose
+Displays the full path of the current working directory.
+
+### Command Used
 ```bash
 pwd
 
