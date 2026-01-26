@@ -11,6 +11,8 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 - df -h
 - du -sh ~/linux_basics_lab
 - uptime
+- grep
+- find
 
 ## Lab Steps
 
@@ -61,9 +63,29 @@ The uptime command displays how long the system has been running along with curr
 - Provides quick insight into system stability and performance
 - Useful for determining whether a system reboot has occurred recently
 
+## Command 14: find and grep
 
+### Purpose
+Searches for files and directories, and searches for specific text within files.
 
+### Commands Used
+```bash
+find ~/linux_basics_lab -type f
+find /etc -name "*.conf"
+grep "error" system_check.txt
+grep -i "name" /etc/os-release
+```
 
+#### Explanation
+The find command searches for files and directories based on criteria such as name, type, or location.
+It is commonly used to locate configuration files, logs, or user data across the filesystem.
+The grep command searches inside files for matching text patterns.
+The -i option makes the search case-insensitive, which is useful when searching logs or configuration values.
 
+#### IT Support Relevance
+- Used to quickly locate configuration files and log files
+- Helps identify error messages or keywords during troubleshooting
+- Essential for diagnosing application and system issues
+- Saves time when working on systems with large numbers of files
 
   
