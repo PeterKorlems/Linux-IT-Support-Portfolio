@@ -12,6 +12,7 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 - cat
 - less
 - cp
+- rm
 
 ## Lab Steps
 
@@ -183,3 +184,29 @@ This command is commonly used to create backups or preserve original files befor
 - Used to back up configuration files before editing
 - Helps preserve logs and user data during troubleshooting
 - Essential when testing changes without risking original files
+
+## Command 10: rm
+
+### Purpose
+Removes files and directories from the filesystem.
+
+### Commands Used
+```bash
+rm support_notes.txt
+rm system_check_backup.txt
+rm -r tickets_backup
+rm -i report.txt
+```
+
+### Explanation
+The rm command permanently deletes files and directories.
+By default, deleted items are not recoverable.
+The -r option is required to remove directories and their contents recursively.
+The -i option prompts for confirmation before deletion, helping prevent accidental data loss.
+
+### IT Support Relevance
+- Used to remove temporary, duplicate, or obsolete files
+- Helps clean up log files after troubleshooting
+- The -i option is commonly used to avoid accidental deletion of important data
+
+
