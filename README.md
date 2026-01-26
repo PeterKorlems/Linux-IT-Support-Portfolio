@@ -28,7 +28,7 @@ common issues faced in enterprise IT environments.
 - **07_IT_Support_Ticket_Scenarios** – Realistic support case studies
 
 ## Lab Environment
-- OS: Ubuntu Server / Rocky Linux
+- OS: Ubuntu Server
 - Tools: Terminal, Bash, SSH, systemctl, journalctl
 
 ## Purpose
