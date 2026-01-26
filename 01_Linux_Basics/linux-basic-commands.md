@@ -8,6 +8,7 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 - ls
 - cd
 - mkdir
+- touch
 - rm
 - cp
 - mv
@@ -61,3 +62,15 @@ mkdir linux_basics_lab
 mkdir logs
 mkdir -p tickets/closed
 ```
+
+## Command 5: touch
+
+### Purpose
+Creates empty files or updates file timestamps.
+
+### Commands Used
+```bash
+touch system_check.txt
+touch notes.txt report.txt
+```
+
