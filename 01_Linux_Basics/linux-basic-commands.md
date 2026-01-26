@@ -1,4 +1,4 @@
-# Linux Basic Commands Lab
+# Linux Basic Commands Lab I
 
 ## Objective
 Learn and demonstrate essential Linux commands used daily in IT support roles.
@@ -9,10 +9,7 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 - cd
 - mkdir
 - touch
-- rm
-- cp
-- mv
-- man
+- cat
 
 ## Lab Steps
 
@@ -25,6 +22,11 @@ Displays the full path of the current working directory.
 ```bash
 pwd
 ```
+
+### Explanation
+This command confirms the directory I am currently working in.
+In IT support, this helps prevent accidental changes to system directories
+and ensures commands are run in the correct location.
 
 ## Command 2: ls
 
@@ -39,6 +41,17 @@ ls -l
 ls -la
 ```
 
+### Explanation
+- ls displays visible files and folders
+- ls -l shows detailed information such as permissions, ownership, and size
+- ls -la includes hidden files and directories
+
+### IT Support Relevance
+The ls command is commonly used to:
+- Verify the presence of files or folders
+- Check permissions during access issues
+- Identify hidden configuration files
+
 ## Command 3: cd
 
 ### Purpose
@@ -50,6 +63,17 @@ cd Documents
 cd ..
 cd ~
 ```
+
+### Explanation
+- cd 'directory' moves into a specified directory
+- cd .. moves up one directory level
+- cd ~ returns to the user’s home directory
+
+### IT Support Relevance
+The cd command is essential for:
+- Navigating system directories
+- Accessing configuration and log locations
+- Avoiding mistakes by confirming the correct working path
 
 ## Command 4: mkdir
 
@@ -63,6 +87,16 @@ mkdir logs
 mkdir -p tickets/closed
 ```
 
+### Explanation
+- mkdir creates a single directory
+- mkdir -p creates parent and child directories in one command
+
+### IT Support Relevance
+The mkdir command is used to:
+- Organise user files
+- Create log or ticket directories
+- Prepare folder structures for applications and scripts
+
 ## Command 5: touch
 
 ### Purpose
@@ -74,3 +108,34 @@ touch system_check.txt
 touch notes.txt report.txt
 ```
 
+### Explanation
+- touch creates empty files if they do not exist
+- If the file exists, it updates the modification time
+
+### IT Support Relevance
+The touch command is used to:
+- Create log or note files
+- Test file permissions
+- Prepare configuration files before editing
+
+## Command 6: cat
+
+### Purpose
+Displays the contents of a file.
+
+### Commands Used
+```bash
+cat system_check.txt
+echo "System check completed successfully" > system_check.txt
+echo "No errors detected" >> system_check.txt
+```
+### Explanation
+- cat outputs file contents to the terminal
+- ">" writes content and overwrites the file
+- ">>" appends content to the file
+
+### IT Support Relevance
+The cat command is commonly used to:
+- View log and configuration files
+- Confirm file contents during troubleshooting
+- Quickly verify system output
