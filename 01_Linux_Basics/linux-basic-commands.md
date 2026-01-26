@@ -10,6 +10,7 @@ Learn and demonstrate essential Linux commands used daily in IT support roles.
 - mkdir
 - touch
 - cat
+- less
 
 ## Lab Steps
 
@@ -139,3 +140,23 @@ The cat command is commonly used to:
 - View log and configuration files
 - Confirm file contents during troubleshooting
 - Quickly verify system output
+
+## Command 7: less
+
+### Purpose
+Safely views the contents of a file one screen at a time.
+
+### Commands Used
+```bash
+less system_check.txt
+less /etc/os-release
+```
+
+### Explanation
+The less command opens a file in an interactive viewer, allowing scrolling without loading the entire file at once.
+This is safer and more efficient than using cat, especially for large files.
+
+### IT Support Relevance
+- Used to view large log and configuration files safely
+- Prevents terminal overload during troubleshooting
+- Commonly used on remote systems via SSH
