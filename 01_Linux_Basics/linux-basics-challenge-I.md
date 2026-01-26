@@ -1,4 +1,4 @@
-# Linux Basics – Practical Assignments I
+# Linux Basics – Practical Challenge I
 
 ## Overview
 This assignment is designed to consolidate Linux basics knowledge and demonstrate
