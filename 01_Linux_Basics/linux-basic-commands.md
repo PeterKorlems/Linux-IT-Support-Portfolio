@@ -24,3 +24,14 @@ Displays the full path of the current working directory.
 ```bash
 pwd
 
+## Command 2: ls
+
+### Purpose
+Lists files and directories in the current location.
+Include permission structure with the '-l' flag and hidden files and directories with the '-a' flag.
+
+### Commands Used
+```bash
+ls
+ls -l
+ls -la
