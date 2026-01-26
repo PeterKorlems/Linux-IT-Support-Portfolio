@@ -38,3 +38,15 @@ ls -l
 ls -la
 ```
 
+## Command 3: cd
+
+### Purpose
+Changes the current working directory.
+
+### Commands Used
+```bash
+cd Documents
+cd ..
+cd ~
+```
+
